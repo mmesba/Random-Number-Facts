@@ -2,14 +2,25 @@ body {
     background-color: rgb(173, 170, 170);
 }
 
-.cont {
-}
+
 .title {
     width: 30%;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 30px;
+    padding: .1rem;
     text-align: center;
     background-color: rgb(61, 147, 223);
-    color: white;
+    color: rgb(255, 255, 255);
     
+}
+.title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.title input {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+#fact {
+    display: none;
 }
